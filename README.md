@@ -6,80 +6,94 @@ HIKERS
 
 A web-based hiking booking platform that allows users to explore destinations, check schedules, and reserve trips online.
 
-Security & Authentication
+System Architecture
 
-Secure user authentication (email and password login system)
-JWT-based session handling for protected routes
-Role-based access control for users and admins
-Input validation to prevent unauthorized access and malicious data
-Booking & Storage System
-Online booking system for hikers to reserve hiking schedules
-Persistent data storage for user profiles and booking records
-Upload feature for proof of payment or requirements
-Real-time form validation and user-friendly booking interface
-Admin Tools
-Booking management dashboard (approve, decline, monitor bookings)
-User management (view, restrict, or remove users)
-Activity monitoring system for tracking reservations
-Data control for managing hiking schedules and availability
-Tech Stack
-Frontend
-React.js (Vite)
-Tailwind CSS
-Framer Motion
-React Hot Toast, Lucide Icons
-Backend & Infrastructure
-Node.js, Express.js
-Database system (for user and booking data)
-File handling middleware (for uploads)
-Deployment on Linux-based virtual machine
+The HIKERS system follows a client-server architecture designed for efficient and secure online booking.
+
+Frontend (Client Side)
+Built using React.js, it provides a responsive and user-friendly interface where hikers can browse destinations, view schedules, and make bookings.
+
+Backend (Server Side)
+Developed using Node.js and Express.js, it handles API requests, booking logic, user authentication, and data processing.
+
+Database
+Stores user information, booking details, and hiking schedules to ensure data consistency and accessibility.
+
+File Handling System
+Manages file uploads such as proof of payment and user requirements.
+
+Deployment Environment
+Hosted on a Linux-based virtual machine with a configured web server for handling client requests.
+
+Key Features
+
+👤 User Features
+User registration and login system
+Browse hiking destinations and schedules
+Online booking and reservation system
+Upload proof of payment or requirements
+View and manage booking history
+
+👑 Admin Features
+Dashboard for managing bookings
+Approve or decline reservations
+Manage hiking schedules and availability
+Monitor user activities
+Control and manage user accounts
+
+🔒 Security Features
+Secure authentication system
+Input validation to prevent invalid data
+Role-based access control (admin & user)
+Protected routes and session handling
+
 Project Development
 
-Developed by Group 5
+Developed by Group 2
 
-Janna Claura
+JANNA CLAURA
 
 Led the overall system design and frontend development
 Designed the booking interface and user experience
 Managed UI components and user interaction flow
 
-Hazel Gapasacan
+HAZEL GAPASCAN
 
 Assisted in frontend development and UI improvements
 Helped implement booking forms and validation features
 Contributed to testing and usability enhancements
 
-Camille Sinag
+CAMILLE SINAG
 
 Assisted in backend development and database integration
 Helped manage booking data and user records
 Contributed to API functionality
 
-Casey Dayo
+CASEY DAYO
 
 Supported system testing and debugging
 Helped identify and resolve errors in both frontend and backend
 Assisted in improving system performance
 
-Neil Russel Rubia
+NEIL RUSSEL RUBIA
 
 Assisted in backend logic and request handling
 Contributed to booking system functionality
 Helped optimize server-side processes
 
-Eloisa Salvago
+ELOISA SALVAGO
 
 Managed project coordination and documentation
 Helped organize system requirements and workflow
 Supported testing and validation
 
-Sendrick Eseo
+SENDRICK ESEO
 
 Assisted in deployment and system setup
 Helped configure the development environment
 Supported integration and final system implementation
 
-Roadmap (v2.0)
+ROADMAP (v2.0)
 
 Planned improvements:
 
