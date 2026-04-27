@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="Gemini_Generated_Image_nnb9mnnb9mnnb9mn.png" />
-</p>
+ <img src="lumangbanner.png" />
+ <img src="bagongbanner.png" />
+ <img src="banner.png" />
 
 HIKERS
 
 A web-based hiking booking platform that allows users to explore destinations, check schedules, and reserve trips online.
 
 Security & Authentication
+
 Secure user authentication (email and password login system)
 JWT-based session handling for protected routes
 Role-based access control for users and admins
@@ -77,7 +79,8 @@ Sendrick Eseo
 Assisted in deployment and system setup
 Helped configure the development environment
 Supported integration and final system implementation
- Roadmap (v2.0)
+
+Roadmap (v2.0)
 
 Planned improvements:
 
