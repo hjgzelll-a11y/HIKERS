@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="Gemini_Generated_Image_nnb9mnnb9mnnb9mn.png" />
+</p>
+
+HIKERS
+
+A web-based hiking booking platform that allows users to explore destinations, check schedules, and reserve trips online.
+
 Security & Authentication
 Secure user authentication (email and password login system)
 JWT-based session handling for protected routes
