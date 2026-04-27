@@ -1,7 +1,6 @@
 <p align="center">
- <img src="lumangbanner.png" />
- <img src="bagongbanner.png" />
- <img src="banner.png" />
+  <img src="Gemini_Generated_Image_nnb9mnnb9mnnb9mn.png" />
+</p>
 
 HIKERS
 
