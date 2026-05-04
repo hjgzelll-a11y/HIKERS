@@ -49,7 +49,7 @@ Protected routes and session handling
 
 Project Development
 
-Developed by Group 2
+Developed by Group 5
 
 JANNA CLAURA
 
