@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookings</title>
+</head>
+<body>
+
+  <h1>Booking List</h1>
+
+  <ul id="list"></ul>
+
+  <script>
+    async function loadBookings() {
+      const res = await fetch("http://localhost:3000/bookings");
+      const data = await res.json();
+
+      const list = document.getElementById("list");
+      list.innerHTML = "";
+
+      data.forEach(b => {
+        const li = document.createElement("li");
+
+        li.innerHTML = `
+          ${b.name} - ${b.destination} - ${b.date}
+          <button onclick="deleteBooking('${b._id}')">Delete</button>
+        `;
+
+        list.appendChild(li);
+      });
+    }
+
+    async function deleteBooking(id) {
+      await fetch(`http://localhost:3000/bookings/${id}`, {
+        method: "DELETE"
+      });
+
+      loadBookings();
+    }
+
+    loadBookings();
+  </script>
+
+</body>
+</html>
