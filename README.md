@@ -1,7 +1,7 @@
 # 🌄 HIKERS
 
 <p align="center">
-  <img src="Gemini_Generated_Image_nnb9mnnb9mnnb9mn.png" width="100%" />
+  <img src="banner.png.png" width="100%" />
 </p>
 
 ## 📖 About the Project
