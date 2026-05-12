@@ -1,103 +1,177 @@
+# 🌄 HIKERS
+
 <p align="center">
-  <img src="Gemini_Generated_Image_nnb9mnnb9mnnb9mn.png" />
+  <img src="Gemini_Generated_Image_nnb9mnnb9mnnb9mn.png" width="100%" />
 </p>
 
-HIKERS
+## 📖 About the Project
 
-A web-based hiking booking platform that allows users to explore destinations, check schedules, and reserve trips online.
+HIKERS is a web-based hiking booking platform designed to help users explore hiking destinations, check schedules, and reserve hiking trips online. The system provides a user-friendly interface for both hikers and administrators, making trip management easier, faster, and more organized.
 
-System Architecture
+---
 
-The HIKERS system follows a client-server architecture designed for efficient and secure online booking.
+# 🚀 Key Features
 
-Frontend (Client Side)
-Built using React.js, it provides a responsive and user-friendly interface where hikers can browse destinations, view schedules, and make bookings.
+## 👤 User Features
 
-Backend (Server Side)
-Developed using Node.js and Express.js, it handles API requests, booking logic, user authentication, and data processing.
+- 🔐 User Registration and Login
+- 🏔️ Explore Hiking Destinations
+- 📅 Hiking Schedule and Reservation System
+- 💳 Upload Proof of Payment
+- ❤️ Add Mountains to Favorites
+- 📖 Booking History Tracking
+- 🌍 Community Posting Feature
+- 🏆 Achievement and Reward System
+- 🚨 Hiking Safety Tips and Emergency Contacts
 
-Database
-Stores user information, booking details, and hiking schedules to ensure data consistency and accessibility.
+---
 
-File Handling System
-Manages file uploads such as proof of payment and user requirements.
+## 👑 Admin Features
 
-Deployment Environment
-Hosted on a Linux-based virtual machine with a configured web server for handling client requests.
+- 📊 Admin Dashboard
+- ✅ Approve or Reject Bookings
+- 🏔️ Add and Manage Hiking Destinations
+- 📢 Post System Announcements
+- 📈 Monitor Booking Statistics
+- 👥 Manage User Activities
 
-Key Features
+---
 
-👤 User Features
-User registration and login system
-Browse hiking destinations and schedules
-Online booking and reservation system
-Upload proof of payment or requirements
-View and manage booking history
+## 🔒 Security Features
 
-👑 Admin Features
-Dashboard for managing bookings
-Approve or decline reservations
-Manage hiking schedules and availability
-Monitor user activities
-Control and manage user accounts
+- 🔐 Secure Authentication System
+- 🛡️ Input Validation
+- 👑 Role-Based Access Control
+- 🔒 Protected Admin Pages
+- 📂 Secure File Upload Handling
 
-🔒 Security Features
-Secure authentication system
-Input validation to prevent invalid data
-Role-based access control (admin & user)
-Protected routes and session handling
+---
 
-Project Development
+# 🏗️ System Architecture
 
-Developed by Group 5
+The HIKERS platform follows a **Client-Server Architecture** to ensure efficient communication between users and the server.
 
-JANNA CLAURA
+## 💻 Frontend (Client Side)
 
-Led the overall system design and frontend development
-Designed the booking interface and user experience
-Managed UI components and user interaction flow
+Built using **React.js**, the frontend provides a responsive and interactive user interface where users can:
 
-HAZEL GAPASCAN
+- Browse hiking destinations
+- View schedules
+- Book hiking trips
+- Manage profiles and bookings
 
-Assisted in frontend development and UI improvements
-Helped implement booking forms and validation features
-Contributed to testing and usability enhancements
+---
 
-CAMILLE SINAG
+## ⚙️ Backend (Server Side)
 
-Assisted in backend development and database integration
-Helped manage booking data and user records
-Contributed to API functionality
+Developed using **Node.js** and **Express.js**, the backend handles:
 
-CASEY DAYO
+- API Requests
+- Booking Logic
+- Authentication
+- Database Communication
+- File Upload Processing
 
-Supported system testing and debugging
-Helped identify and resolve errors in both frontend and backend
-Assisted in improving system performance
+---
 
-NEIL RUSSEL RUBIA
+## 🗄️ Database
 
-Assisted in backend logic and request handling
-Contributed to booking system functionality
-Helped optimize server-side processes
+The system database stores:
 
-ELOISA SALVAGO
+- User Information
+- Booking Records
+- Hiking Destinations
+- Reservation Details
+- Uploaded Requirements
 
-Managed project coordination and documentation
-Helped organize system requirements and workflow
-Supported testing and validation
+---
 
-SENDRICK ESEO
+## 📂 File Handling System
 
-Assisted in deployment and system setup
-Helped configure the development environment
-Supported integration and final system implementation
+Handles image and file uploads such as:
 
-ROADMAP (v2.0)
+- Proof of Payment
+- User Uploaded Photos
+- Community Post Images
 
-Planned improvements:
+---
 
-Online payment integration (GCash / PayPal)
-Real-time booking availability calendar
-User reviews and ratings for hiking experiences
-GPS/map integration for hiking locations
+## 🖥️ Deployment Environment
+
+The project is hosted using a **Linux-based Virtual Machine** with a configured web server for handling application requests and deployment.
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend Development |
+| Node.js | Backend Runtime |
+| Express.js | Server Framework |
+| MongoDB | Database |
+| CSS | Styling |
+| JavaScript | Application Logic |
+
+---
+
+# 📸 System Screenshots
+
+## 🔐 Login Page
+![Login](log%20in.png)
+
+## 🏔️ HIKERS Homepage
+![Homepage](banner.png.png)
+
+---
+
+# 👨‍💻 Project Development Team — Group 5
+
+## 🌟 JANNA CLAURA
+- Led overall system design and frontend development
+- Designed booking interface and user experience
+- Managed UI components and interaction flow
+
+## 🌟 HAZEL GAPASCAN
+- Assisted in frontend development and UI improvements
+- Implemented booking forms and validation
+- Contributed to testing and usability enhancements
+
+## 🌟 CAMILLE SINAG
+- Assisted in backend development and database integration
+- Managed booking data and user records
+- Contributed to API functionality
+
+## 🌟 CASEY DAYO
+- Supported system testing and debugging
+- Identified and resolved frontend/backend errors
+- Assisted in performance improvements
+
+## 🌟 NEIL RUSSEL RUBIA
+- Assisted in backend logic and request handling
+- Contributed to booking system functionality
+- Helped optimize server-side processes
+
+## 🌟 ELOISA SALVAGO
+- Managed project coordination and documentation
+- Organized workflow and requirements
+- Supported testing and validation
+
+## 🌟 SENDRICK ESEO
+- Assisted in deployment and system setup
+- Configured development environment
+- Supported final integration and implementation
+
+---
+
+# 🛣️ Roadmap (Version 2.0)
+
+### Planned Improvements
+
+- 💳 Online Payment Integration (GCash / PayPal)
+- 📅 Real-Time Booking Availability Calendar
+- ⭐ User Reviews and Ratings
+- 🗺️ GPS and Map Integration
+- 🔔 Real-Time Notifications
+- 📱 Mobile Responsive Optimization
+
