@@ -115,13 +115,6 @@ The project is hosted using a **Linux-based Virtual Machine** with a configured 
 
 ---
 
-# 📸 System Screenshots
-
-## 🔐 Login Page
-![Login](log%20in.png)
-
-## 🏔️ HIKERS Homepage
-![Homepage](banner.png.png)
 
 ---
 
