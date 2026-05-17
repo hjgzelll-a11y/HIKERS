@@ -1,3 +1,5 @@
+const crypto = require('crypto');
+global.crypto = crypto;
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -7,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb://127.0.0.1:27017/HikersDB")
+mongoose.connect("mongodb://Cabatang:987654321@ac-lltjji6-shard-00-00.3amvvip.mongodb.net:27017,ac-lltjji6-shard-00-01.3amvvip.mongodb.net:27017,ac-lltjji6-shard-00-02.3amvvip.mongodb.net:27017/?ssl=true&replicaSet=atlas-14abth-shard-0&authSource=admin&appName=Cluster0")
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
 
@@ -48,7 +50,32 @@ app.post("/login", async (req, res) => {
     return res.json({ error: "Wrong password" });
   }
 
-  res.json(user);
+  res.json({
+  name: user.name,
+  email: user.email,
+  role: user.role
+});
+
+});
+app.post("/reset-password", async (req, res) => {
+
+  const { email, newPassword } = req.body;
+
+  const user = await User.findOne({ email });
+
+  if (!user) {
+    return res.json({
+      error: "Email not found"
+    });
+  }
+
+  user.password = newPassword;
+
+  await user.save();
+
+  res.json({
+    message: "Password updated successfully ✅"
+  });
 });
 
 app.listen(5000, () => {
