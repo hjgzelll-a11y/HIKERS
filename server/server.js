@@ -6,7 +6,9 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 app.use(express.json());
 
 mongoose.connect("mongodb://Cabatang:987654321@ac-lltjji6-shard-00-00.3amvvip.mongodb.net:27017,ac-lltjji6-shard-00-01.3amvvip.mongodb.net:27017,ac-lltjji6-shard-00-02.3amvvip.mongodb.net:27017/?ssl=true&replicaSet=atlas-14abth-shard-0&authSource=admin&appName=Cluster0")
