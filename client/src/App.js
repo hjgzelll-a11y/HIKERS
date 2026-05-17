@@ -579,7 +579,7 @@ const filteredHikes = hikes.filter((hike) => {
   const handleLogin = async (e) => {
   e.preventDefault();
 
-  const res = await fetch("http://localhost:5000/login", {
+const res = await fetch("https://hikers-hd0u.onrender.com/login", {
     method: "POST",
     headers: { 
       "Content-Type": "application/json" 
@@ -624,7 +624,7 @@ const filteredHikes = hikes.filter((hike) => {
     return;
   }
 
-  const res = await fetch("http://localhost:5000/register", {
+  const res = await fetch("https://hikers-hd0u.onrender.com/register", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -662,7 +662,7 @@ const handleResetPassword = async () => {
     return;
   }
 
-  const res = await fetch("http://localhost:5000/reset-password", {
+  const res = await fetch("https://hikers-hd0u.onrender.com/reset-password", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
