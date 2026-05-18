@@ -18,19 +18,19 @@ HIKERS is a web-based hiking booking platform that allows users to explore hikin
 
 ## 🚀 Key Features
 
-### 👤 User Features
--🔐 User Registration and Login
--🏔️ Explore Hiking Destinations
--📅 View Hiking Schedules
--📝 Make Hiking Reservations
--❤️ Add Mountains to Favorites
--📖 View Booking History
--🗺️ Interactive Maps and Location Viewing
--🏆 User Achievements and Hiking Progress
--👤 User Profile Management
--⭐ Submit Reviews and Ratings
--👥 Community Feature for Sharing Hiking Experiences
--🛡️ Safety Tips and Hiking Guidelines 
+## 👤 User Features
+- 🔐 User Registration and Login  
+- 🏔️ Explore Hiking Destinations  
+- 📅 View Hiking Schedules  
+- 📝 Make Hiking Reservations  
+- ❤️ Add Mountains to Favorites  
+- 📖 View Booking History  
+- 🗺️ Interactive Maps and Location Viewing  
+- 🏆 User Achievements and Hiking Progress  
+- 👤 User Profile Management  
+- ⭐ Submit Reviews and Ratings  
+- 👥 Community Feature for Sharing Hiking Experiences  
+- 🛡️ Safety Tips and Hiking Guidelines  
 
 ### 👑 Admin Features
 - 📊 Admin Dashboard  
